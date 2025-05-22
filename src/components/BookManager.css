@@ -1,0 +1,73 @@
+/* 특수 버튼 스타일 수정 - 배치 조정 */
+.detail-btn, .edit-btn, .delete-btn {
+  display: inline-block;
+  margin: 0 2px;
+}.book-manager {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 표지 이미지 스타일 */
+.cover-image {
+  max-width: 200px;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+/* textarea 스타일 */
+textarea.full-width {
+  grid-column: 1 / -1;
+  resize: vertical;
+  min-height: 80px;
+  width: 100%;
+}
+
+/* 제목 컬럼 넓게 설정 */
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 15%;
+}
+
+/* ISBN 컬럼 스타일 */
+table th:nth-child(4),
+table td:nth-child(4) {
+  width: 12%;
+}
+
+/* 가격 컬럼 스타일 */
+table th:nth-child(5),
+table td:nth-child(5) {
+  width: 8%;
+  text-align: right;
+}
+
+/* 출간일 컬럼 스타일 */
+table th:nth-child(6),
+table td:nth-child(6) {
+  width: 10%;
+  text-align: center;
+}
+
+/* 출판사 컬럼 스타일 */
+table th:nth-child(7),
+table td:nth-child(7) {
+  width: 12%;
+}
+
+/* 페이지 컬럼 스타일 */
+table th:nth-child(8),
+table td:nth-child(8) {
+  width: 8%;
+  text-align: center;
+}
+
+/* 액션 컬럼 스타일 */
+table th:nth-child(9),
+table td:nth-child(9) {
+  width: 15%;
+  text-align: center;
+}
